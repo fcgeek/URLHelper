@@ -7,107 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC8731171CEE22140006555D /* URLHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8731161CEE22140006555D /* URLHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC87311E1CEE22140006555D /* URLHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8731131CEE22140006555D /* URLHelper.framework */; };
-		EC8731231CEE22140006555D /* URLHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8731221CEE22140006555D /* URLHelperTests.swift */; };
+		ECD648C31CEE261C001CC088 /* URLHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD648C21CEE261C001CC088 /* URLHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECD648CA1CEE261C001CC088 /* URLHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD648BF1CEE261C001CC088 /* URLHelper.framework */; };
+		ECD648CF1CEE261C001CC088 /* URLHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD648CE1CEE261C001CC088 /* URLHelperTests.swift */; };
+		ECD648DB1CEE2656001CC088 /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD648DA1CEE2656001CC088 /* URLHelper.swift */; };
+		ECD648DC1CEE26FB001CC088 /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD648DA1CEE2656001CC088 /* URLHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EC87311F1CEE22140006555D /* PBXContainerItemProxy */ = {
+		ECD648CB1CEE261C001CC088 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EC87310A1CEE22140006555D /* Project object */;
+			containerPortal = ECD648B61CEE261C001CC088 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EC8731121CEE22140006555D;
+			remoteGlobalIDString = ECD648BE1CEE261C001CC088;
 			remoteInfo = URLHelper;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EC8731131CEE22140006555D /* URLHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC8731161CEE22140006555D /* URLHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLHelper.h; sourceTree = "<group>"; };
-		EC8731181CEE22140006555D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC87311D1CEE22140006555D /* URLHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC8731221CEE22140006555D /* URLHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHelperTests.swift; sourceTree = "<group>"; };
-		EC8731241CEE22140006555D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD648BF1CEE261C001CC088 /* URLHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD648C21CEE261C001CC088 /* URLHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLHelper.h; sourceTree = "<group>"; };
+		ECD648C41CEE261C001CC088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD648C91CEE261C001CC088 /* URLHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD648CE1CEE261C001CC088 /* URLHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHelperTests.swift; sourceTree = "<group>"; };
+		ECD648D01CEE261C001CC088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD648DA1CEE2656001CC088 /* URLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EC87310F1CEE22140006555D /* Frameworks */ = {
+		ECD648BB1CEE261C001CC088 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC87311A1CEE22140006555D /* Frameworks */ = {
+		ECD648C61CEE261C001CC088 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC87311E1CEE22140006555D /* URLHelper.framework in Frameworks */,
+				ECD648CA1CEE261C001CC088 /* URLHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EC8731091CEE22140006555D = {
+		ECD648B51CEE261C001CC088 = {
 			isa = PBXGroup;
 			children = (
-				EC8731151CEE22140006555D /* URLHelper */,
-				EC8731211CEE22140006555D /* URLHelperTests */,
-				EC8731141CEE22140006555D /* Products */,
+				ECD648C11CEE261C001CC088 /* URLHelper */,
+				ECD648CD1CEE261C001CC088 /* URLHelperTests */,
+				ECD648C01CEE261C001CC088 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EC8731141CEE22140006555D /* Products */ = {
+		ECD648C01CEE261C001CC088 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC8731131CEE22140006555D /* URLHelper.framework */,
-				EC87311D1CEE22140006555D /* URLHelperTests.xctest */,
+				ECD648BF1CEE261C001CC088 /* URLHelper.framework */,
+				ECD648C91CEE261C001CC088 /* URLHelperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC8731151CEE22140006555D /* URLHelper */ = {
+		ECD648C11CEE261C001CC088 /* URLHelper */ = {
 			isa = PBXGroup;
 			children = (
-				EC8731161CEE22140006555D /* URLHelper.h */,
-				EC8731181CEE22140006555D /* Info.plist */,
+				ECD648D91CEE2656001CC088 /* Source */,
+				ECD648C21CEE261C001CC088 /* URLHelper.h */,
+				ECD648C41CEE261C001CC088 /* Info.plist */,
 			);
 			path = URLHelper;
 			sourceTree = "<group>";
 		};
-		EC8731211CEE22140006555D /* URLHelperTests */ = {
+		ECD648CD1CEE261C001CC088 /* URLHelperTests */ = {
 			isa = PBXGroup;
 			children = (
-				EC8731221CEE22140006555D /* URLHelperTests.swift */,
-				EC8731241CEE22140006555D /* Info.plist */,
+				ECD648CE1CEE261C001CC088 /* URLHelperTests.swift */,
+				ECD648D01CEE261C001CC088 /* Info.plist */,
 			);
 			path = URLHelperTests;
+			sourceTree = "<group>";
+		};
+		ECD648D91CEE2656001CC088 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				ECD648DA1CEE2656001CC088 /* URLHelper.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EC8731101CEE22140006555D /* Headers */ = {
+		ECD648BC1CEE261C001CC088 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8731171CEE22140006555D /* URLHelper.h in Headers */,
+				ECD648C31CEE261C001CC088 /* URLHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EC8731121CEE22140006555D /* URLHelper */ = {
+		ECD648BE1CEE261C001CC088 /* URLHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC8731271CEE22140006555D /* Build configuration list for PBXNativeTarget "URLHelper" */;
+			buildConfigurationList = ECD648D31CEE261C001CC088 /* Build configuration list for PBXNativeTarget "URLHelper" */;
 			buildPhases = (
-				EC87310E1CEE22140006555D /* Sources */,
-				EC87310F1CEE22140006555D /* Frameworks */,
-				EC8731101CEE22140006555D /* Headers */,
-				EC8731111CEE22140006555D /* Resources */,
+				ECD648BA1CEE261C001CC088 /* Sources */,
+				ECD648BB1CEE261C001CC088 /* Frameworks */,
+				ECD648BC1CEE261C001CC088 /* Headers */,
+				ECD648BD1CEE261C001CC088 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,72 +127,72 @@
 			);
 			name = URLHelper;
 			productName = URLHelper;
-			productReference = EC8731131CEE22140006555D /* URLHelper.framework */;
+			productReference = ECD648BF1CEE261C001CC088 /* URLHelper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EC87311C1CEE22140006555D /* URLHelperTests */ = {
+		ECD648C81CEE261C001CC088 /* URLHelperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC87312A1CEE22140006555D /* Build configuration list for PBXNativeTarget "URLHelperTests" */;
+			buildConfigurationList = ECD648D61CEE261C001CC088 /* Build configuration list for PBXNativeTarget "URLHelperTests" */;
 			buildPhases = (
-				EC8731191CEE22140006555D /* Sources */,
-				EC87311A1CEE22140006555D /* Frameworks */,
-				EC87311B1CEE22140006555D /* Resources */,
+				ECD648C51CEE261C001CC088 /* Sources */,
+				ECD648C61CEE261C001CC088 /* Frameworks */,
+				ECD648C71CEE261C001CC088 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EC8731201CEE22140006555D /* PBXTargetDependency */,
+				ECD648CC1CEE261C001CC088 /* PBXTargetDependency */,
 			);
 			name = URLHelperTests;
 			productName = URLHelperTests;
-			productReference = EC87311D1CEE22140006555D /* URLHelperTests.xctest */;
+			productReference = ECD648C91CEE261C001CC088 /* URLHelperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EC87310A1CEE22140006555D /* Project object */ = {
+		ECD648B61CEE261C001CC088 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = fcgeek;
 				TargetAttributes = {
-					EC8731121CEE22140006555D = {
+					ECD648BE1CEE261C001CC088 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					EC87311C1CEE22140006555D = {
+					ECD648C81CEE261C001CC088 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = EC87310D1CEE22140006555D /* Build configuration list for PBXProject "URLHelper" */;
+			buildConfigurationList = ECD648B91CEE261C001CC088 /* Build configuration list for PBXProject "URLHelper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EC8731091CEE22140006555D;
-			productRefGroup = EC8731141CEE22140006555D /* Products */;
+			mainGroup = ECD648B51CEE261C001CC088;
+			productRefGroup = ECD648C01CEE261C001CC088 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC8731121CEE22140006555D /* URLHelper */,
-				EC87311C1CEE22140006555D /* URLHelperTests */,
+				ECD648BE1CEE261C001CC088 /* URLHelper */,
+				ECD648C81CEE261C001CC088 /* URLHelperTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EC8731111CEE22140006555D /* Resources */ = {
+		ECD648BD1CEE261C001CC088 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC87311B1CEE22140006555D /* Resources */ = {
+		ECD648C71CEE261C001CC088 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,33 +202,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EC87310E1CEE22140006555D /* Sources */ = {
+		ECD648BA1CEE261C001CC088 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD648DB1CEE2656001CC088 /* URLHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC8731191CEE22140006555D /* Sources */ = {
+		ECD648C51CEE261C001CC088 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8731231CEE22140006555D /* URLHelperTests.swift in Sources */,
+				ECD648CF1CEE261C001CC088 /* URLHelperTests.swift in Sources */,
+				ECD648DC1CEE26FB001CC088 /* URLHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EC8731201CEE22140006555D /* PBXTargetDependency */ = {
+		ECD648CC1CEE261C001CC088 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EC8731121CEE22140006555D /* URLHelper */;
-			targetProxy = EC87311F1CEE22140006555D /* PBXContainerItemProxy */;
+			target = ECD648BE1CEE261C001CC088 /* URLHelper */;
+			targetProxy = ECD648CB1CEE261C001CC088 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		EC8731251CEE22140006555D /* Debug */ = {
+		ECD648D11CEE261C001CC088 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -265,7 +279,7 @@
 			};
 			name = Debug;
 		};
-		EC8731261CEE22140006555D /* Release */ = {
+		ECD648D21CEE261C001CC088 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +321,7 @@
 			};
 			name = Release;
 		};
-		EC8731281CEE22140006555D /* Debug */ = {
+		ECD648D41CEE261C001CC088 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -316,6 +330,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = URLHelper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fcgeek.URLHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -323,7 +338,7 @@
 			};
 			name = Debug;
 		};
-		EC8731291CEE22140006555D /* Release */ = {
+		ECD648D51CEE261C001CC088 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -332,6 +347,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = URLHelper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fcgeek.URLHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,7 +355,7 @@
 			};
 			name = Release;
 		};
-		EC87312B1CEE22140006555D /* Debug */ = {
+		ECD648D71CEE261C001CC088 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = URLHelperTests/Info.plist;
@@ -349,7 +365,7 @@
 			};
 			name = Debug;
 		};
-		EC87312C1CEE22140006555D /* Release */ = {
+		ECD648D81CEE261C001CC088 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = URLHelperTests/Info.plist;
@@ -362,32 +378,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC87310D1CEE22140006555D /* Build configuration list for PBXProject "URLHelper" */ = {
+		ECD648B91CEE261C001CC088 /* Build configuration list for PBXProject "URLHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC8731251CEE22140006555D /* Debug */,
-				EC8731261CEE22140006555D /* Release */,
+				ECD648D11CEE261C001CC088 /* Debug */,
+				ECD648D21CEE261C001CC088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC8731271CEE22140006555D /* Build configuration list for PBXNativeTarget "URLHelper" */ = {
+		ECD648D31CEE261C001CC088 /* Build configuration list for PBXNativeTarget "URLHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC8731281CEE22140006555D /* Debug */,
-				EC8731291CEE22140006555D /* Release */,
+				ECD648D41CEE261C001CC088 /* Debug */,
+				ECD648D51CEE261C001CC088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		EC87312A1CEE22140006555D /* Build configuration list for PBXNativeTarget "URLHelperTests" */ = {
+		ECD648D61CEE261C001CC088 /* Build configuration list for PBXNativeTarget "URLHelperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC87312B1CEE22140006555D /* Debug */,
-				EC87312C1CEE22140006555D /* Release */,
+				ECD648D71CEE261C001CC088 /* Debug */,
+				ECD648D81CEE261C001CC088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EC87310A1CEE22140006555D /* Project object */;
+	rootObject = ECD648B61CEE261C001CC088 /* Project object */;
 }
