@@ -33,6 +33,9 @@ class URLHelperTests: XCTestCase {
         }
     }
     
+    /**
+     test
+     */
     func testParseUrl() {
         let urlString = "https://www.google.com.hk/search?q=URLHelper"
         guard let url = NSURL(string: urlString) else {
